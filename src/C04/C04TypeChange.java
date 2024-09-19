@@ -3,6 +3,15 @@ package C04;
 public class C04TypeChange {
 
 	public static void main(String[] args) {
+		// (자료형)형변환
+		// 연산작업시(=,+,-) 일치하지 않는 자료형을 일치시키는 작업을 형변환이라고 한다.
+		
+		// 자동형변환(암시적형변환) : 컴파일러에 의해 자동으로 변환
+		// 강제형변환(명시적형변환) : 프로그래머에 의해 강제로 변환
+		
+		// 자동형변환인 경우 데이터 손실을 최소화하는 방향으로 자료형을 일치시킨다.
+		// byte < short, char < int < long < float < double
+		
 		byte byteValue = 10;
 		int intValue = byteValue;
 		System.out.println("intValue: " + intValue);
