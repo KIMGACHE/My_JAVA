@@ -38,7 +38,7 @@ public class C09INFO {
 		
 		//힙영역에 Scanner객체를 생성한뒤 객체의 주소를 sc이름의 참조변수에 저장
 		
-
+	
 	}
 
 }

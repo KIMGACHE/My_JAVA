@@ -21,5 +21,4 @@ public class C09Method가변인자 {
 		obj.sum(10,20,30,40,50);
 		obj.sum(10,20,30,40,50,60);
 	}
-
 }
