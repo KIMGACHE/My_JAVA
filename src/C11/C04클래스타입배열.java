@@ -3,7 +3,7 @@ package C11;
 class C04Person {
 	String name;
 	int age;
-	public C04Person() {
+	C04Person() {
 		super();
 		this.name = name;
 		this.age = age;
