@@ -96,6 +96,40 @@ class G extends C{
 	
 }
 public class C05UpDownCastingMain {
+	// A~G로 만든 모든 객체를 받을 수 있는 함수
+	public static void upDownTestFunc(A obj, int ...args) {
+		obj.a=args[0];
+		if(obj instanceof B) {
+			B down = (B)obj;
+			down.b=args[1];
+		}
+		if(obj instanceof C) {
+			C down = (C)obj;
+			down.c=args[1];
+		}
+		if(obj instanceof D) {
+			D down = (D)obj;
+			down.b=args[1];
+			down.d=args[2];
+		}
+		if(obj instanceof E) {
+			E down = (E)obj;
+			down.b=args[1];
+			down.e=args[2];
+		}
+		if(obj instanceof F) {
+			F down = (F)obj;
+			down.c=args[1];
+			down.f=args[2];
+		}
+		if(obj instanceof G) {
+			G down = (G)obj;
+			down.c=args[1];
+			down.g=args[2];
+		}
+		System.out.println(obj);
+		
+	}
 
 	public static void main(String[] args) {
 		A ob1 = new A(0);
@@ -106,6 +140,9 @@ public class C05UpDownCastingMain {
 		F ob6 = new F(0,0,0);
 		G ob7 = new G(0,0,0);
 
+		upDownTestFunc(ob1,1);
+		upDownTestFunc(ob2,1,2);
+		upDownTestFunc(ob3,1,3);
 	}
 
 }
