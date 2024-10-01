@@ -3,7 +3,7 @@ package C18;
 public class C01NullPointerExceptionMain {
 
 	public static void main(String[] args) {
-		// 오류의 종료
+		// 오류의 종류
 		// 1. 컴파일 에러(compile error) - 컴파일할 때 발생하는 에러
 		// 2. 실행 오류 (runtime error) - 실행할 때 발생하는 에러,가장 치명적
 		// 2-1 시스템오류
