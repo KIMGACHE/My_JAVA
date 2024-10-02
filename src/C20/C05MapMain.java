@@ -27,8 +27,6 @@ public class C05MapMain {
 		map.put("취미", hobby);
 		
 		func1(map);
-		
-		
 	}
 
 }

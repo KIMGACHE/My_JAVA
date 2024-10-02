@@ -27,7 +27,7 @@ class MemberRepository extends C05JPARepository<Member,String>{
 		// TODO Auto-generated constructor stub
 	}
 }
-class BoardRepository extends C05JPARepository<Board,String>{
+class BoardRepository extends C05JPARepository<Board,Integer>{
 	public BoardRepository(Board entity, Class<?> dataType) {
 		super(entity, dataType);
 		// TODO Auto-generated constructor stub
