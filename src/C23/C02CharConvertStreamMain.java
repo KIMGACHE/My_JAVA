@@ -28,9 +28,9 @@ public class C02CharConvertStreamMain {
 		InputStream in = new FileInputStream("c:\\TMP_ID\\test.txt");
 		BufferedInputStream bin =new BufferedInputStream(in);
 		InputStreamReader ring = new InputStreamReader(bin);
-		int dada;
+		int data;
 		while(true) {
-			dada = bin.read();
+			data = bin.read();
 			if(data==-1)
 				break;
 			System.out.print((char)data);
