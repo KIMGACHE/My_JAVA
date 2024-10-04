@@ -6,7 +6,7 @@ interface Calculator {
 	
 }
 
-public class C03 {
+public class C03LAMDA {
 
 	public static void main(String[] args) {
 		
